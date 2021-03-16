@@ -19,6 +19,5 @@ const titleCased = () => {
 function titleCaseWords(str) {
   let sentence = str.split(' ')
   let newArray = sentence.map(word=>word.charAt(0).toUpperCase() + word.slice(1))
-
   return newArray.join(" ")
 }
